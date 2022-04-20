@@ -4,9 +4,8 @@ import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
-        String message =   "Hello world!" + "!!"  ;
-        ;
-        System.out.println(message.trim());
+        // C:\Windows\...
+        String message = "C:\tWindows\\...";
         System.out.println(message);
 
     }
