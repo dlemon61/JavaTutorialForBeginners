@@ -5,7 +5,10 @@ import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
-        final float PI = 3.14F;
+       int x = 1;
+       x += 2;
+        System.out.println(x);
+
 
 
     }
