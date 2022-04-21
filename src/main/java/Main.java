@@ -1,15 +1,15 @@
 import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class Main {
 
         public static void main(String[] args) {
-            String[] fruits = {"Apple", "Mango", "Orange" };
+            int numWords = 4;
+           var scanner = new Scanner(System.in);
+           var inString = scanner.nextLine();
+           var st = new StringTokenizer(inString);
+            System.out.println("Number words: " + st.countTokens());
 
-            for (int i = fruits.length; i > 0; i--)
-                System.out.println(fruits[i]);
-
-            for (String fruit : fruits)
-                System.out.println(fruit);
 
             }
         }
